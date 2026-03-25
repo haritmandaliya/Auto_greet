@@ -14,7 +14,7 @@ REM Config
 REM ================================
 set "VENV_DIR=%PROJECT_DIR%venv"
 set "PYTHON_EXEC=python"
-set "APP_FILE=Pasted code.py"
+set "APP_FILE=app.py"
 set "REQUIREMENTS_FILE=requirements.txt"
 
 REM ================================

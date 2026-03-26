@@ -5,6 +5,7 @@ import os
 import io
 import zipfile
 import tempfile
+import openpyxl
 
 # ---------------- FONT ----------------
 def load_bold_font(size):
@@ -486,7 +487,7 @@ if excel_file and templates:
 # if excel_file and template_files:
 #     if st.button("Generate Birthday Cards"):
 #         try:
-#             df = pd.read_excel(excel_file)
+#             df = pd.read_excel(excel_file, engine="openpyxl")
             
 #             required_columns = {'Owner Name', 'Business Name'}
 #             if not required_columns.issubset(df.columns):
